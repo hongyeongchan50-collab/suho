@@ -168,3 +168,70 @@ header p {
   cursor: not-allowed;
   box-shadow: none;
 }
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--text-placeholder);
+  margin: 2.5rem 0;
+  opacity: 0.3;
+}
+
+.inquiry-section {
+  text-align: left;
+}
+
+.inquiry-section h3 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--text-placeholder);
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: var(--btn-hover);
+  transform: translateY(-1px);
+}
