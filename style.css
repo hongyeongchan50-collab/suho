@@ -235,3 +235,8 @@ header p {
   background-color: var(--btn-hover);
   transform: translateY(-1px);
 }
+
+.comments-section {
+  margin-top: 2rem;
+  min-height: 300px;
+}
